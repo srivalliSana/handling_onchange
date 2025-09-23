@@ -1,12 +1,15 @@
-# React + Vite
+Objective: Show or hide a component using a toggle button.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description: Implement a button that toggles the visibility of a component.
 
-Currently, two official plugins are available:
+Learning Outcome: Learn conditional rendering using state.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Pseudo-Code:
 
-## Expanding the ESLint configuration
+  Initialize state isVisible → true/false.
+  
+  Create toggle button → switches isVisible state.
+  
+  Render component only if isVisible is true.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  <img width="560" height="585" alt="Screenshot 2025-09-17 194907" src="https://github.com/user-attachments/assets/01eeb76e-2d07-437b-99b3-ee0f7ffab22b" />
